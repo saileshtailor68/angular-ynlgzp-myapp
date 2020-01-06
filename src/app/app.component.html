@@ -1,5 +1,16 @@
-<mat-toolbar color="primary">
-  <span>My Application Test2</span>
-</mat-toolbar>
+<div style="height:100%">
+	<mat-toolbar color="primary" style="height:40px">
+		My Application Test2
+	</mat-toolbar>
+	<br>
+	<mat-drawer-container class="example-container" style="height:100%;width:100%">
+		<mat-drawer mode="side" opened>
+			Drawer content
+			<mat-checkbox>Checked</mat-checkbox>
+		</mat-drawer>
 
-<mat-checkbox>Checked</mat-checkbox>
+		<mat-drawer-content>
+			Main content
+		</mat-drawer-content>
+	</mat-drawer-container>
+</div>
