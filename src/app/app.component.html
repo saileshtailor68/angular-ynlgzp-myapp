@@ -4,7 +4,7 @@
 	</mat-toolbar>
 	<mat-drawer-container class="example-container" style="height:100%;width:100%">
 		<mat-drawer mode="side" opened>
-			<div style="background-color:red; height:100%;">
+			<div style="background-color:grey; height:100%;">
         <div style="padding:5px">
                 Drawer content
         </div>
@@ -14,6 +14,7 @@
 
 		<mat-drawer-content>
 			Main content
+      <p>B: {{b | percent:'1.3-5'}}</p>
 		</mat-drawer-content>
 	</mat-drawer-container>
 </div>
