@@ -9,11 +9,11 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 //aplication modules
 import { AppComponent } from "./app.component";
-import { HelloComponent } from "./hello.component";
+import { PipeSamplesComponent } from "./pipe-samples.component";
 
 @NgModule({
   imports: [BrowserModule, FormsModule, AppMaterialModule, BrowserAnimationsModule],
-  declarations: [AppComponent, HelloComponent],
+  declarations: [AppComponent, PipeSamplesComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
