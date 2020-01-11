@@ -1,22 +1,29 @@
 <div class="main">
+
 	<mat-toolbar color="primary" style="height:40px">
 		My Application Test2
 	</mat-toolbar>
+
 	<mat-drawer-container class="example-container" style="height:100%;width:100%">
+
 		<mat-drawer mode="side" opened>
 			<div style="background-color:grey; height:100%;">
-        <div style="padding:5px">
-                Drawer content
-        </div>
-
-      </div>
+				<div style="padding:5px">
+					Drawer content
+				</div>
+			</div>
 		</mat-drawer>
 
 		<mat-drawer-content>
-      <p>The value - {{b}}
-      <p>using the percent pipe  - percent:'1.3-5'</p> 
-      <p>{{b | percent:'1.3-5'}}</p>
-      <hr>
+			<div style="background-color:lightgrey; height:100%;">
+				<div style="padding:5px">
+					<pipe-samples></pipe-samples>
+					<hr>
+				</div>
+			</div>
+
 		</mat-drawer-content>
+
 	</mat-drawer-container>
+
 </div>
